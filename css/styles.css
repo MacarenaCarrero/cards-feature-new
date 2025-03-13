@@ -25,13 +25,16 @@ body {
 }
 
 .supercontainer {
-  width: 23.4375rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+@media screen and (width >= 768px){
+  .supercontainer{
+    gap: 32px;
+  }
+}
 .head {
   text-align: center;
 }
@@ -44,6 +47,21 @@ body {
   color: #6b6b6b;
   font-size: 1.5rem;
 }
+@media screen and (width >= 768px){
+  .container{
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+@media screen and (width >= 1400px){
+  .container{
+    display: flex;  
+    justify-content: center;
+    gap: 2rem;
+  }
+}
 .card {
   width: 16.75rem;
   height: 16rem;
@@ -55,6 +73,26 @@ body {
   box-shadow: 8px 0.5rem 1rem rgb(0 0 0 /0.1);
   margin-bottom: 2rem;
   border-radius: 0.5rem;
+}
+@media (hover: hover){
+  .card-pink:hover{
+background-color: #F0C8FE;
+  }
+}
+@media (hover: hover){
+  .card-blue:hover{
+background-color: #CADBFF;
+  }
+}
+@media (hover: hover){
+  .card-red:hover{
+background-color: #FFCACA;
+  }
+}
+@media (hover: hover){
+  .card-green:hover{
+background-color: #B4FFAF;
+  }
 }
 .paragraph {
   text-align: center;
