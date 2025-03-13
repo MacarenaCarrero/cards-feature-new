@@ -20,5 +20,70 @@ nav ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f8fc;
+}
+
+.supercontainer {
+  width: 23.4375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  text-align: center;
+}
+.title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.subtitle {
+  font-weight: 400;
+  color: #6b6b6b;
+  font-size: 1.5rem;
+}
+.card {
+  width: 16.75rem;
+  height: 16rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 0.5rem 1rem rgb(0 0 0 /0.1);
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+.paragraph {
+  text-align: center;
+  font-size: 0.875rem;
+}
+.description {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.icon {
+  width: 2.5rem;
+}
+
+.container-image {
+  display: flex;
+  justify-content: center;
+  width: 5.625rem;
+  height: 5.625rem;
+  border-radius: 50%;
+}
+.clock {
+  background-color: #f7ddff;
+}
+.project {
+  background-color: #dde8ff;
+}
+.resource {
+  background-color: #ffddde;
+}
+.invoicing {
+  background-color: #dfffdd;
 }
