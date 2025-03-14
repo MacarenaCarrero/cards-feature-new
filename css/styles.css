@@ -64,7 +64,6 @@ body {
 }
 .card {
   width: 16.75rem;
-  height: 16rem;
   background-color: white;
   display: flex;
   flex-direction: column;
